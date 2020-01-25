@@ -1,0 +1,181 @@
+#titleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  text-align: center;
+}
+
+#titleSpan {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #80DEEA;
+  font-weight: 400;
+  font-size: 28px;
+  display: inline-flex;
+}
+
+.titleHR {
+  background-color: #80DEEA;
+  height: 2px;
+  border: none;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  color: #80DEEA;
+  font-size: 100px;
+}
+
+#pContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  text-align: center;
+  line-height: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: #00BCD4;
+  font-size: 20px;
+}
+
+#svgContainer {
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: auto;
+  align-items: baseline;
+}
+
+#svgContainer p {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #00BCD4;
+  font-size: 18px;
+  padding: 0;
+}
+
+.svgIMG {
+  margin: 50px 50px 25px 50px;
+  padding: 10px;
+  border: transparent;
+  border-radius: 20px;
+}
+
+.svgIMG:hover {
+  box-shadow: 10px 10px 30px #455A64;
+}
+
+#RelaxedMaru {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  background: url("../images/maru_relaxed.svg") no-repeat;
+}
+
+#RelaxedMaru:hover {
+  background: url("../images/hover_relaxed.svg") no-repeat;
+}
+
+#HappyMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_happy.svg") no-repeat;
+}
+
+#HappyMaru:hover {
+  background: url("../images/hover_happy.svg") no-repeat;
+}
+
+#ShyMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_shy.svg") no-repeat;
+}
+
+#ShyMaru:hover {
+  background: url("../images/hover_shy.svg") no-repeat;
+}
+
+#InLoveMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_inlove.svg") no-repeat;
+}
+
+#InLoveMaru:hover {
+  background: url("../images/hover_inlove.svg") no-repeat;
+}
+
+#CryingMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_crying.svg") no-repeat;
+}
+
+#CryingMaru:hover {
+  background: url("../images/hover_crying.svg") no-repeat;
+}
+
+#DizzyMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_dizzy.svg") no-repeat;
+}
+
+#DizzyMaru:hover {
+  background: url("../images/hover_dizzy.svg") no-repeat;
+}
+
+#TiredMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_tired.svg") no-repeat;
+}
+
+#TiredMaru:hover {
+  background: url("../images/hover_tired.svg") no-repeat;
+}
+
+#CoolMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_cool.svg") no-repeat;
+}
+
+#CoolMaru:hover {
+  background: url("../images/hover_cool.svg") no-repeat;
+}
+
+#CheeredMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_cheered.svg") no-repeat;
+}
+
+#CheeredMaru:hover {
+  background: url("../images/hover_cheered.svg") no-repeat;
+}
+
+#BoredMaru {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url("../images/maru_bored.svg") no-repeat;
+}
+
+#BoredMaru:hover {
+  background: url("../images/hover_bored.svg") no-repeat;
+}
