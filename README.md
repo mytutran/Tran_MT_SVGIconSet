@@ -1,6 +1,6 @@
 # SVG ICON SET ASSIGNMENT
 
-![LittleMaru](images/maru_relaxed.svg "Maru Relaxed" width="250px")
+![LittleMaru](images/maru_relaxed.svg "Maru Relaxed" | width="250")
 
 ## Little Maru Emoticon Set
 
