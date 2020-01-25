@@ -2,10 +2,10 @@
 
   const allSVGs = document.querySelectorAll(".svgIMG");
 
-  function callID() {
+  function toggleSelection() {
+    this.classList.toggle("selected");
     console.log(this.id);
   }
 
-  allSVGs.forEach(item => item.addEventListener('click',callID));
-
-})();
+  allSVGs.forEach(item => item.addEventListener('click',toggleSelection));
+})()

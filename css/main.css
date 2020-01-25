@@ -64,10 +64,20 @@ h1 {
   padding: 10px;
   border: transparent;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .svgIMG:hover {
   box-shadow: 10px 10px 30px #455A64;
+}
+
+.svgIMG > * {
+  pointer-events: none;
+}
+
+.selected {
+  position: relative;
+  bottom: 40px;
 }
 
 #RelaxedMaru {
